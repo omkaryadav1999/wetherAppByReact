@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.serach_Container {
+    width: 500px;
+    text-align: center;
+
+}
+
+.serach {
+    width: 250px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: rgb(159, 157, 149);
+
+}
+
+.serachbtn {
+    width: 80px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(159, 157, 149);
+}
+
+.temp_Container {
+    margin: 15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.icon_container {
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherState {
+    font-size: 150px;
+}
+
+.dispaly_temp {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.display_temp {
+    width: 350px;
+    background-color: black;
+    color: wheat;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.temp_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.combo_info {
+    display: flex;
+    justify-content: space-evenly;
+}
